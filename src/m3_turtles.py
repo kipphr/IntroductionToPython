@@ -68,16 +68,23 @@ dave.forward(200)
 # Construct a new turtle and ask it to do things.
 # ----------------------------------------------------------------------
 matt = rg.SimpleTurtle('turtle')
-matt.pen = rg.Pen('red', 30)
-matt.speed = 10  # Faster
-matt.backward(50)
+matt.pen = rg.Pen('purple', 30)
+matt.speed = 3  # Faster
+matt.backward(100)
 matt.left(90)
-matt.forward(50)
+matt.forward(5)
+matt.backward(10)
+matt.forward(10)
+matt.backward(10)
+matt.forward(10)
+matt.backward(10)
+matt.forward(10)
+matt.backward(10)
 
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
