@@ -98,7 +98,7 @@ matt.backward(10)
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -116,10 +116,14 @@ matt.backward(10)
 #   As always, test by running the module.
 #
 ########################################################################
-
+bill = rg.SimpleTurtle('arrow')
+bill.pen = rg.Pen('blue', 30)
+bill.speed = 3  # Faster
+bill.left(90)
+bill.forward(90)
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
